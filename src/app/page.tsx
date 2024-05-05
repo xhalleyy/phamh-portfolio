@@ -12,8 +12,8 @@ export default function Home() {
     <div className=" bg-white">
       <NavbarComponent />
       <div className="bg-[#5A233B] flex flex-1 flex-col">
-        <div className=" grid grid-cols-3 items-center px-20">
-          <div className="col-span-1 grid justify-center ">
+        <div className=" grid grid-cols-3 gap-5 items-center px-16">
+          <div className="col-span-1 grid justify-center">
             <Image
               src="/me.png"
               width={520}
