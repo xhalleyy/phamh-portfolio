@@ -26,7 +26,7 @@ export default function Home() {
             <p className="font-railway text-2xl">Hello! I'm currently an aspiring an aspiring web developer with a strong foundation in HTML, CSS, JavaScript, and React. I have a particular passion for front-end development, where I find joy in crafting visually appealing and user-friendly interfaces. Additionally, I am actively expanding my skill set to become a well-rounded developer, such as working in C# and creating APIs.</p>
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-10 my-16 px-5 items-center">
+        <div id="skills" className="grid grid-cols-4 gap-10 my-16 px-5 items-center">
           <div className="col-span-1 flex flex-col justify-center items-center">
             <p className="text-4xl font-railway font-medium text-[#99CAD9]">Libraries</p>
             <div className="flex flex-row gap-4 mt-5 items-center">

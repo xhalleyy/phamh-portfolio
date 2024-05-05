@@ -12,6 +12,9 @@ const NavbarComponent = () => {
         <a href="#about">
           <div className="cursor-pointer">About</div>
         </a>
+        <a href="#skills">
+          <div className="cursor-pointer">Skills</div>
+        </a>
         <a href="#projects">
           <div className="cursor-pointer">Projects</div>
         </a>
