@@ -185,7 +185,7 @@ const ProjectTabsComponent = () => {
                                 <h5 className="text-2xl font-bold font-railway text-[rgb(2,88,111)]">
                                     Tip Calculator
                                 </h5>
-                                <p className="font-medium text-gray-700 dark:text-gray-400 font-railway">Built With: React, TypeScript, Tailwind</p>
+                                <p className="font-medium text-gray-700 dark:text-gray-400 font-railway">Built With: Next.js, TypeScript, Tailwind</p>
                             </Card>
                         </a>
                     </div>
