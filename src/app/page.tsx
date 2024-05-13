@@ -23,7 +23,7 @@ export default function Home() {
           <div className="col-span-3 xl:col-span-2 text-[#f5ede4]">
             <h1 className="font-deuts text-[60px] text-wrap md:text-[110px] py-5 text-center">Halley Pham</h1>
             <p className="font-railway text-4xl py-1.5 mb-3 text-center text-[#99CAD9] font-bold">Software Developer</p>
-            <p className="font-railway text-2xl">Hello! I'm currently an aspiring web developer with a strong foundation in HTML, CSS, JavaScript, and React. I have a particular passion for front-end development, where I find joy in crafting visually appealing and user-friendly interfaces. Additionally, I am actively expanding my skill set to become a well-rounded developer, such as working in C# and creating APIs.</p>
+            <p className="font-railway text-2xl">Hello! I'm a passionate 24-year-old aspiring web developer actively trying to evolve to be more proficient. Currently, I am deeply grounded in HTML, CSS, JavaScript, and React. My fervor lies in front-end development, where I enjoy sculpting visually captivating and intuitive interfaces that resonate with users. Beyond this, I'm dedicated to broadening my expertise by delving into the realms of C# and API creation to enhance my skillsets..</p>
           </div>
         </div>
         <div id="skills" className="grid grid-cols-4 gap-10 my-16 px-5 items-start">
@@ -119,7 +119,7 @@ export default function Home() {
 
       <div className="bg-[rgb(221,216,213)] relative">
         <div className="px-5 py-10">
-          <h1 className="text-5xl font-railway font-medium text-[rgb(2,88,111)] absolute">Projects</h1>
+          <h1 className="ps-0 md:ps-7 text-5xl font-railway font-medium text-[rgb(2,88,111)] absolute">Projects</h1>
           <ProjectTabsComponent />
         </div>
       </div>

@@ -7,7 +7,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 const NavbarComponent = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const handleClose = () => setIsOpen(false);
 
   // const custombutton = {
