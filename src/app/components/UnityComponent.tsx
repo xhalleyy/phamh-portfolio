@@ -8,14 +8,13 @@ const UnityComponent = () => {
     }, []);
 
     return (
-        <div>
+        <div className="flex flex-1 justify-center items-center">
             {isClient && (
                 <iframe
                     frameBorder="0"
                     src="https://itch.io/embed-upload/10350649?color=333333"
                     allowFullScreen
-                    width="960"
-                    height="660"
+                    className="h-[280px] w-[320px] md:h-[500px] md:w-[700px] lg:h-[660px] lg:w-[960px]"
                 >
                     <a href="https://xhalleyy.itch.io/bleach-trivia">Play Bleach Trivia on itch.io</a>
                 </iframe>

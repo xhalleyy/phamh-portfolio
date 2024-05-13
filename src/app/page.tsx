@@ -12,22 +12,22 @@ export default function Home() {
     <div className=" bg-white">
       <NavbarComponent />
       <div className="bg-[#5A233B] flex flex-1 flex-col">
-        <div className=" grid grid-cols-3 gap-5 items-center px-16">
-          <div className="col-span-1 grid justify-center">
+        <div className=" grid grid-cols-3 gap-5 items-center px-10 md:px-16">
+          <div className="col-span-3 xl:col-span-1 grid justify-center">
             <Image
               src="/me.png"
               width={520}
               height={520}
               alt="Picture of Halley" />
           </div>
-          <div className="col-span-2 text-[#f5ede4]">
-            <h1 className="font-deuts text-[110px] py-5 text-center">Halley Pham</h1>
-            <p className="font-railway text-4xl py-1.5 mb-3 text-center text-[#99CAD9] font-bold">Junior Software Developer</p>
+          <div className="col-span-3 xl:col-span-2 text-[#f5ede4]">
+            <h1 className="font-deuts text-[60px] text-wrap md:text-[110px] py-5 text-center">Halley Pham</h1>
+            <p className="font-railway text-4xl py-1.5 mb-3 text-center text-[#99CAD9] font-bold">Software Developer</p>
             <p className="font-railway text-2xl">Hello! I'm currently an aspiring web developer with a strong foundation in HTML, CSS, JavaScript, and React. I have a particular passion for front-end development, where I find joy in crafting visually appealing and user-friendly interfaces. Additionally, I am actively expanding my skill set to become a well-rounded developer, such as working in C# and creating APIs.</p>
           </div>
         </div>
-        <div id="skills" className="grid grid-cols-4 gap-10 my-16 px-5 items-center">
-          <div className="col-span-1 flex flex-col justify-center items-center">
+        <div id="skills" className="grid grid-cols-4 gap-10 my-16 px-5 items-start">
+          <div className="col-span-4 md:col-span-2 lg:col-span-1 flex flex-col justify-center items-center">
             <p className="text-4xl font-railway font-medium text-[#99CAD9]">Libraries</p>
             <div className="flex flex-row gap-4 mt-5 items-center">
               <Tooltip content="React" placement="bottom" style="light" className="px-4 mt-2 font-railway text-lg">
@@ -41,9 +41,9 @@ export default function Home() {
               </Tooltip>
             </div>
           </div>
-          <div className="col-span-1 flex flex-col justify-center items-center">
+          <div className="col-span-4 md:col-span-2 lg:col-span-1 flex flex-col justify-center items-center">
             <p className="text-4xl font-railway font-medium text-[#99CAD9]">Languages</p>
-            <div className="flex flex-row gap-3 mt-5 items-center">
+            <div className="flex flex-row flex-wrap xl:flex-nowrap justify-center gap-3 mt-5 items-center">
               <Tooltip content="JavaScript" placement="bottom" style="light" className="px-4 mt-2 font-railway text-lg">
                 <Image src="/js.png" width={45} height={43} alt="react" className="rounded-sm" />
               </Tooltip>
@@ -64,7 +64,7 @@ export default function Home() {
               </Tooltip>
             </div>
           </div>
-          <div className="col-span-1 flex flex-col justify-center items-center">
+          <div className="col-span-4 md:col-span-2 lg:col-span-1 flex flex-col justify-center items-center">
             <p className="text-4xl font-railway font-medium text-[#99CAD9]">Frameworks</p>
             <div className="flex flex-row gap-4 mt-5 items-center">
               <Tooltip content="TailwindCSS" placement="bottom" style="light" className="px-4 mt-2 font-railway text-lg">
@@ -78,9 +78,9 @@ export default function Home() {
               </Tooltip>
             </div>
           </div>
-          <div className="col-span-1 flex flex-col justify-center items-center">
+          <div className="col-span-4 md:col-span-2 lg:col-span-1 flex flex-col justify-center items-center">
             <p className="text-4xl font-railway font-medium text-[#99CAD9]">Productivity</p>
-            <div className="flex flex-row gap-3 mt-5 items-center">
+            <div className="flex flex-row flex-wrap xl:flex-nowrap justify-center gap-3 mt-5 items-center">
               <Tooltip content="Visual Studio Code" placement="bottom" style="light" className="px-4 mt-2 font-railway text-lg">
                 <Image src="/vscode.png" width={47} height={47} alt="react" />
               </Tooltip>
@@ -118,7 +118,7 @@ export default function Home() {
       </div>
 
       <div className="bg-[rgb(221,216,213)] relative">
-        <div className="px-20 py-10">
+        <div className="px-5 py-10">
           <h1 className="text-5xl font-railway font-medium text-[rgb(2,88,111)] absolute">Projects</h1>
           <ProjectTabsComponent />
         </div>
